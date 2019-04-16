@@ -1,0 +1,12 @@
+[package]
+name = "dynamic_const"
+version = "0.1.0"
+authors = ["Dmitry Demin <shepardiwe@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.15.31"
+quote = "0.6.12"
